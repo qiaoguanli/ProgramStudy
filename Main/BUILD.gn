@@ -1,0 +1,12 @@
+executable("target"){
+    sources = [
+        "target.cpp"
+    ]
+}
+
+
+group("root") {
+  deps = [
+    "//tools//tutorial:target"
+  ]
+}
